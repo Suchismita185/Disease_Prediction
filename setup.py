@@ -5,10 +5,10 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="disease-prediction",
-    version="1.0.0",
+    version="2.0.0",
     author="Suchismita Bangal",
     author_email="suchismitabangal05@gmail.com",
-    description="A machine learning web application for predicting Diabetes, Heart Disease, and Kidney Disease",
+    description="A comprehensive machine learning web application for predicting Diabetes, Heart Disease, and Kidney Disease",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Suchismita185/Disease_Prediction",
@@ -18,6 +18,7 @@ setup(
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Development Status :: 4 - Beta",
@@ -31,5 +32,10 @@ setup(
         "scikit-learn>=1.5.0",
         "pandas>=2.2.0",
         "numpy>=1.26.4",
+        "matplotlib>=3.8.3",
+        "plotly>=5.18.0",
+        "pillow>=10.1.0",
+        "joblib>=1.3.2",
+        "python-dotenv>=1.0.0",
     ],
 )
