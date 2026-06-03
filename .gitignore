@@ -49,11 +49,10 @@ env/
 .streamlit/secrets.toml
 .streamlit/cache/
 
-# Models and data
-*.pkl
+# Data files (but keep saved models)
+*.csv
 *.joblib
 *.h5
-*.csv
 
 # Jupyter Notebook
 .ipynb_checkpoints
